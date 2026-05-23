@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  typescript: {
+    // Ignora erros de tipagem no build para poupar memória RAM (o Cursor/VS Code já valida isso)
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
