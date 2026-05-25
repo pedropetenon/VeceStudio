@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion, Variants } from 'framer-motion';
-import { Wind, Clock, Lock, CameraOff } from 'lucide-react';
+import { Wind, Clock, Lock, CameraOff, ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const cards = [
@@ -101,9 +101,10 @@ export function PainSection() {
                 href="https://wa.me/5562995295460?text=Olá, gostaria de agendar minha avaliação gratuita e confidencial."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 bg-zinc-900 border border-zinc-800 hover:border-amber-600/40 text-amber-500 rounded-full font-medium transition-all duration-300 hover:scale-105 active:scale-95 text-sm"
+                className="group relative inline-flex items-center justify-center gap-2.5 px-6 py-3.5 sm:px-8 sm:py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-zinc-950 font-semibold rounded-full transition-all duration-300 hover:scale-[1.03] active:scale-[0.98] shadow-[0_0_30px_rgba(245,158,11,0.2)] hover:shadow-[0_0_40px_rgba(245,158,11,0.35)] text-sm sm:text-base text-center w-full sm:w-auto"
               >
-                Agende agora sua avaliação gratuita
+                <span>Agende agora sua avaliação gratuita</span>
+                <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
             </motion.div>
           </div>

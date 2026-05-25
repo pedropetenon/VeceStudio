@@ -205,7 +205,7 @@ export function AntesDepoisSection() {
                   href="https://wa.me/5562995295460?text=Olá, gostaria de agendar uma consulta para entender as opções de prótese capilar."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 group text-amber-500 font-medium hover:text-amber-400 transition-colors text-sm md:text-base"
+                  className="group relative inline-flex items-center justify-center gap-2 px-5 py-3 bg-zinc-900 border border-zinc-800 hover:border-amber-500/50 text-amber-500 font-semibold rounded-full transition-all duration-300 hover:scale-[1.03] active:scale-[0.98] text-sm text-center w-full sm:w-auto"
                 >
                   <span>Ver diagnóstico para meu caso</span>
                   <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
